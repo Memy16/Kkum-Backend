@@ -1,0 +1,57 @@
+# 🔒 ARCHIVOS SENSIBLES
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+*.crt
+
+# 📁 DEPENDENCIAS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🗄️ MONGODB
+/data/
+/mongodb/
+*.mongodb
+
+# 🔧 LOGS
+logs/
+*.log
+npm-debug.log*
+
+# 🛠️ ENTORNO DE DESARROLLO
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 📊 ARCHIVOS DE COBERTURA
+coverage/
+.nyc_output/
+
+# 🏗️ BUILD
+dist/
+build/
+*.tgz
+*.tar.gz
+
+# 🐳 DOCKER
+docker-compose.override.yml
+
+# 📝 TEMPORALES
+*.tmp
+*.temp
+.cache/
+
+
+# 🎯 TU PROYECTO ESPECÍFICO
+# backup/
+# uploads/
+# temp/
